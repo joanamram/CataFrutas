@@ -49,10 +49,8 @@ h1{
 #wrapper-tablero{
   height: 400px;
   width: 600px;
-  /*background-color: purple;*/
   background-image: url('../images/marc.jpg');
   background-size: 600px 400px;
-  /*opacity:0.5;*/
   margin-left: 10%;
   margin-right:10%;
   position:relative;
@@ -89,15 +87,12 @@ h1{
     height: 10px;
     border-radius: 4px;
     z-index: 999;
-  /*  -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border: solid 1px #004A00;*/
 }
 
 #catcher1 {
     top:390px;
     left: 200px;
-    background-color: black;
+    background-color: DarkBlue;
     position:absolute;
 
 }
@@ -105,7 +100,7 @@ h1{
 #catcher2 {
     top:390px;
     left:12px;
-    background-color: black;
+    background-color: LightSkyBlue;
     position:absolute;
 }
 
@@ -124,7 +119,7 @@ h1{
   left: 305px;
   font-family: Helvetica;
   font-size: 20px;
-  background-color: LightSkyBlue;
+  background-color: DarkBlue;
   width:200px;
   height:100px;
   border-radius: 10px;
