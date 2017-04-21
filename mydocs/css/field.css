@@ -1,0 +1,160 @@
+body {
+  background-image:url('../images/tropical.jpeg');
+  background-repeat:repeat;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  margin: 0 auto;
+}
+
+h1{
+  top:0px;
+  margin-top:10px;
+  color: black;
+  margin-left: 300px;
+  font-family: Avantgarde, sans-serif;
+  font-size: 40px;
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+}
+
+#board {
+    width: 85%;
+    height: 100%;
+    background-color: #C4B6B4;
+    border: solid 3px white;
+    box-sizing: border-box;
+    background-image:url('../images/tropical.jpeg');
+    background-size:cover;
+}
+
+.start{
+  top:540px;
+  left:500px;
+  width:100px;
+  height:100px;
+  background-color: pink;
+  font-family: Helvetica;
+  font-size: 20px;
+  border-radius: 10px;
+  position:absolute;
+}
+#wrapper-tablero{
+  height: 400px;
+  width: 600px;
+  /*background-color: purple;*/
+  background-image: url('../images/marc.jpg');
+  background-size: 600px 400px;
+  /*opacity:0.5;*/
+  margin-left: 10%;
+  margin-right:10%;
+  position:relative;
+  overflow:hidden;
+  border-radius: 10px;
+  left:20px;
+
+}
+
+.fruits{
+  top:0px;
+  background-color: transparent;
+  width:40px;
+  height:40px;
+  position: absolute;
+}
+
+.image1{
+  background-image: url('../images/Palmera.png');
+  background-size: cover;
+}
+
+.image2{
+  background-image: url('../images/Piña.png');
+  background-size: 40px 40px;
+}
+.image3{
+  background-image: url('../images/Flamingo.png');
+  background-size: cover;
+}
+.catcher {
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    border-radius: 4px;
+    z-index: 999;
+  /*  -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: solid 1px #004A00;*/
+}
+
+#catcher1 {
+    top:390px;
+    left: 200px;
+    background-color: black;
+    position:absolute;
+
+}
+
+#catcher2 {
+    top:390px;
+    left:12px;
+    background-color: black;
+    position:absolute;
+}
+
+
+#intro{
+  position:relative;
+  width: 600px;
+  margin: 0 auto;
+}
+
+#scoresInfo1{
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  top: 430px;
+  left: 305px;
+  font-family: Helvetica;
+  font-size: 20px;
+  background-color: LightSkyBlue;
+  width:200px;
+  height:100px;
+  border-radius: 10px;
+  padding-top: 50px;
+
+}
+
+
+#scoresInfo2{
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  padding-top: 50px;
+  top: 430px;
+  left:-90px;
+  font-family: Helvetica;
+  font-size: 20px;
+  background-color: LightSkyBlue;
+  width:200px;
+  height:100px;
+  border-radius: 10px;
+}
+
+.gameOver{
+  width:600px;
+  height:800px;
+  z-index: 100;
+  position: relative;
+  background-image: url('../images/SimpsonTurn.gif');
+  background-size: 100% auto;
+  visibility: hidden;
+  background-repeat: no-repeat;
+}
